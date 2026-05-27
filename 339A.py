@@ -1,0 +1,6 @@
+s = input()
+numbers = s.split("+")
+numbers.sort()
+
+result = "+".join(numbers)
+print(result)
