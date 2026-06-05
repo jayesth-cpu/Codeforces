@@ -1,0 +1,8 @@
+k,l,m,n,d = int(input()),int(input()),int(input()),int(input()),int(input())
+
+cnt = 0
+
+for i in range(1,d+1):
+    if i%l == 0 or i%k == 0 or i%m == 0 or i%n == 0:
+        cnt += 1
+print(cnt)
